@@ -1,0 +1,1 @@
+Pagina web especializada en plantas y productos de jardinería, con carrito de compras y formulario de contacto para consultas.
