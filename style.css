@@ -131,5 +131,74 @@ label{
     
 }
 
+/*TIENDA*/
+
+.producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+} 
+
+.producto__img{
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: 0.5s;
+}
+
+.producto__img:hover{
+    width: 330px;
+    height: 350px;
+}
+
+.producto__info{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+    background-color: #629e37;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.producto__info--titulo{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.producto__info--precio{
+    font-weight: 20px;
+    font-weight: 500;
+}
+
+.producto__info--precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.producto__info--button{
+    background-color: rgb(65, 77, 77);
+    color: #EDFFF0;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.producto__info--button:hover{
+    background-color: rgb(210, 233, 223);
+    color: #1f2431;
+}
 
 
