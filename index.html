@@ -8,13 +8,14 @@
     <link rel="icon" href="imagenes/Logo.png">
 </head>
 <body>
+    <!-------------------------------------NAV-->
     <header>
         <h1>Tienda de compras Botanico</h1>
         <nav class="nav"> 
             <ul class="nav__ul">
                 <li class="nav__item nav__item--inicio"><a class="nav__item--a" href="#"><img class="nav__ul--logo" src="imagenes/Logo.png" alt="Logo"></a></li>
-                <li class="nav__item nav__item--tienda"><a class="nav__item--a" href="#">Tienda</a></li>
-                <li class="nav__item nav__item--contacto"><a class="nav__item--a" href="#">Contacto</a></li>
+                <li class="nav__item nav__item--tienda"><a class="nav__item--a" href="#tienda">Tienda</a></li>
+                <li class="nav__item nav__item--contacto"><a class="nav__item--a" href="#contacto">Contacto</a></li>
                 <li class="nav__item nav__item--nosotros"><a class="nav__item--a" href="#">Nosotros</a></li>
             </ul>
         </nav>
@@ -22,41 +23,99 @@
 
 
 
-    <!-------------------------------------------------------
+    <!------------------------VIDEO-------------------------------
     <video class="video" id="miVideo" controls>
         <source src="video/Video Siembra.mp4" type="video/mp4">
         Tu navegador no admite el elemento <code>video</code>.
     </video>
     
-    ----------------------------------------------------- -->
+    -------------------------CONSULTA------------------------------->
     <section>
         <div></div>
             <a href="consulta.html">Realiza una consulta</a>
         </div>
     </section>
-    <section>
-        <h1>Planta de Albahaca</h1>
-        <img src="imagenes/Planta Albahaca.jpg" alt="Planta de Albahaca">
 
-    </section>
+<!------------------------------TIENDA------------------------------->
+    <main>
+        <section id="tienda">
+            <img class="producto__img" src="imagenes/Planta Albahaca.jpg" alt="Planta de Albahaca">
+            <div class="producto__info">
+                <p class="producto__info--titulo">Planta de Albahaca</p>
+                <p class="producto__info--precio">$199<span>.99</span></p>
+                <button class="producto__info--button" type="submit">Comprar</button>
+            </div>
+        </section>
+        <section id="producto" class="producto">
+            <img class="producto__img" src="imagenes/Aloe vera (1).jpg" alt="Planta de Aloe vera">
+            <div class="producto__info">
+                <p class="producto__info--titulo">Planta de Albahaca</p>
+                <p class="producto__info--precio">$199<span>.99</span></p>
+                <button class="producto__info--button" type="submit">Comprar</button>
+            </div>
+        </section>
+        <section id="producto" class="producto">
+            <img class="producto__img" src="imagenes/Menta.jpg" alt="Planta de Menta">
+            <div class="producto__info">
+                <p class="producto__info--titulo">Planta de Albahaca</p>
+                <p class="producto__info--precio">$199<span>.99</span></p>
+                <button class="producto__info--button" type="submit">Comprar</button>
+            </div>
+        </section>
+        <section id="producto" class="producto">
+            <img class="producto__img" src="imagenes/Palta.jpg" alt="Planta de Palta">
+            <div class="producto__info">
+                <p class="producto__info--titulo">Planta de Albahaca</p>
+                <p class="producto__info--precio">$199<span>.99</span></p>
+                <button class="producto__info--button" type="submit">Comprar</button>
+            </div>
+        </section>
+        <section id="producto" class="producto">
+            <img class="producto__img" src="imagenes/Romero.jpg" alt="Planta de Romero">
+            <div class="producto__info">
+                <p class="producto__info--titulo">Planta de Albahaca</p>
+                <p class="producto__info--precio">$199<span>.99</span></p>
+                <button class="producto__info--button" type="submit">Comprar</button>
+            </div>
+        </section>
+        <section id="producto" class="producto">
+            <img class="producto__img" src="imagenes/Ruda.jpg" alt="Planta de Ruda">
+            <div class="producto__info">
+                <p class="producto__info--titulo">Planta de Albahaca</p>
+                <p class="producto__info--precio">$199<span>.99</span></p>
+                <button class="producto__info--button" type="submit">Comprar</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <!--------------------------------------FORMULARIO-->
+    <main>
+
+    </main>
 <div class="div__form">
-    <form action="https://formspree.io/f/meoqqjnv" method="post" class="form">
-        <h2 class="form__h2">Contacto</h2>
+    <form action="https://formspree.io/f/meoqqjnv" 
+    method="post" class="form">
+        <h2 id="contacto" class="form__h2">Contacto</h2>
         <div class="form__div">
             <label for="name">Nombre</label>
-            <input type="text" name="name"  id="name" class="form__div--name form--input form-placeholder" placeholder="-">
+            <input type="text" name="name"  id="name" required class="form__div--name form--input form-placeholder" placeholder="-">
+
             <label for="phone">Telefono</label>
-            <input type="tel" name="phone"  id="phone" class="form__div--phone form--input form-placeholder" placeholder="-">
+            <input type="tel" name="phone"  id="phone" required class="form__div--phone form--input form-placeholder" placeholder="-" required>
+
             <label for="email">email</label>
-            <input type="email" id="email" class="form__div--email form--input form-placeholder" placeholder="-">
+            <input type="email" id="email" required class="form__div--email form--input form-placeholder" placeholder="-" required>
+
             <label for="message">Comentario</label>
-            <textarea name="message" id="message" class="form__div--message form-textarea form-placeholder" placeholder="-"></textarea>
+            <textarea name="message" id="message" required class="form__div--message form-textarea form-placeholder" placeholder="-"></textarea>
+
             <input type="submit" class="form__div--btn" value="Enviar">
             
         </div>
     </form>
 </div>
-
+   <!---------------------------------FOOTER-->
     <footer>Copyright 2024 © Tienda | Design by Pablo Contreras</footer>
     <script src="script.js"></script>
 </body>
