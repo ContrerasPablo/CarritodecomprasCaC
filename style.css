@@ -25,27 +25,32 @@ header {
     color: #385b23;
     
 }
+.divnav{
+    display: flex;
+}
 
-.header__h1{
+.divnav__h1{
     font-family: "Libre Baskerville", serif;
     font-size: 27px;
+    margin-top: 9px;
 }
 
 header .logo{
     cursor: pointer;
 }
 
-.nav__ul--logo{
-    height: 50px;
-    width: auto;
+
+.imagen__logo{
+    width: 30px;
+    height: auto;
     transition: 0.5s;
+    margin-left: 160px;
+    
 
 }
-.nav__ul--logo:hover{
+.divnav__item--inicio{
     transform: scale(1.2);
 }
-
-
 
 .nav__ul{
     list-style: none;
@@ -192,22 +197,22 @@ label{
 }
 
 .producto__info--button{
-    background-color: #d8d8be;
-    color: #EDFFF0;
+    background-color: #f9f9f7;
+    color: #385b23;
     width: 100px;
     height: 35px;
-    border-radius: 10px;
     border: none;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
-    font-size: 17px;
-    font-weight: 300;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    font-size: 13px;
+    font-weight: bold;
     cursor: pointer;
     transition: 1s;
+    
 }
 
 .producto__info--button:hover{
-    background-color: rgb(210, 233, 223);
-    color: #1f2431;
+    color: #d8d8be;
+
 }
 
 
