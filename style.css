@@ -1,28 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libre+Baskerville&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
 
 body{
-    background-color: #e2e3cd;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f7;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*HEADER*/
 header {
     display: flex;
+    background-color: #d8d8be;
     justify-content: space-between;
     align-items: center;
-    background-color: #b7c34b;
     padding: 10px;
     height: 85px 10%;
+    color: #385b23;
+    
 }
 
+.header__h1{
+    font-family: "Libre Baskerville", serif;
+    font-size: 27px;
+}
 
 header .logo{
     cursor: pointer;
@@ -52,7 +59,9 @@ header .logo{
 .nav__item--a{
     font-size: 700;
     text-decoration: none;
-    color: #347107;
+    color: #385b23;
+    font-weight: 250;
+
 }
 /*VIDEO*/
 .video{
@@ -145,7 +154,7 @@ label{
     width: 320px;
     height: 340px;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    /*border-radius: 20px 20px 0 0;*/
     transition: 0.5s;
 }
 
@@ -161,9 +170,9 @@ label{
     align-items: center;
     flex-direction: column;
     gap: 15;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
-    background-color: #629e37;
-    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.75);
+    background-color: #f9f9f7;
+    /*border-radius: 0 0 20px 20px;*/
 }
 
 
@@ -183,13 +192,13 @@ label{
 }
 
 .producto__info--button{
-    background-color: rgb(65, 77, 77);
+    background-color: #d8d8be;
     color: #EDFFF0;
     width: 100px;
     height: 35px;
     border-radius: 10px;
     border: none;
-
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
     font-size: 17px;
     font-weight: 300;
     cursor: pointer;
@@ -205,6 +214,7 @@ label{
 /*RESEÑAS*/
 
 .rese{
+    background-color: #ffffeb;
     display: grid;
     grid-template-columns: 
         repeat(
@@ -222,7 +232,7 @@ label{
     background-color: rgb(137, 202, 174);
     width: 100%;
     height: auto;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+    
 }
 
 .rese__cuadros--h3{
