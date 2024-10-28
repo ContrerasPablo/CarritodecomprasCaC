@@ -152,31 +152,33 @@ label{
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 0px;
 } 
 
 .producto__img{
-    width: 320px;
-    height: 340px;
+    width: 220px;
+    height: 240px;
     object-fit: cover;
     /*border-radius: 20px 20px 0 0;*/
     transition: 0.5s;
 }
 
 .producto__img:hover{
-    width: 330px;
-    height: 350px;
+    width: 230px;
+    height: 250px;
 }
 
 .producto__info{
-    height: 150px;
+    background-color: #f9f9f7;
+    height: 200px;
+    width: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 15;
+    text-align: center;
+    flex-direction:column;
+    gap: 20px;
     box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.75);
-    background-color: #f9f9f7;
     /*border-radius: 0 0 20px 20px;*/
 }
 
