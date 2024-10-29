@@ -10,15 +10,16 @@
 <body>
     <!-------------------------------------NAV-->
     <header>
-        <div class="divnav">
-            <a class="divnav__item--inicio" href="#"><img src="imagenes/logotipo.png"  class="divnav__item--inicio imagen__logo" alt="Logo de la pagina"></a>
-            <h1 class="divnav__h1">BROTECITO</h1>
-        </div>
         <nav class="nav"> 
-            <ul class="nav__ul">
+            <ul  class="nav__ul">
+                <li id="inicio" class="nav_item nav__item--inicio">BROTECITO
+                    <a class="nav__item--a" href=#inicio>
+                        <img src="imagenes/logotipo.png"  class="nav__item--inicio nav__imagen" alt="Logo de la pagina">
+                    </a>
+                </li>
                 <li class="nav__item nav__item--tienda"><a class="nav__item--a" href="#tienda">Tienda</a></li>
                 <li class="nav__item nav__item--contacto"><a class="nav__item--a" href="#contacto">Contacto</a></li>
-                <li class="nav__item nav__item--nosotros"><a class="nav__item--a" href="#">Nosotros</a></li>
+                <li class="nav__item nav__item--nosotros"><a class="nav__item--a" href="#Nosotros">Nosotros</a></li>
             </ul>
         </nav>
     </header>
@@ -41,54 +42,56 @@
 <!------------------------------TIENDA------------------------------->
     <main>
         <div class="producto">
-            <section id="tienda" class="producto__albahaca">
+            <section id="tienda" class="producto__conteiner producto__albahaca">
                 <img class="producto__img" src="imagenes/Planta Albahaca.jpg" alt="Planta de Albahaca">
                 <div class="producto__info">
-                    <p class="producto__info--titulo">Planta de Albahaca</p>
+                    <p class="producto__info--titulo">Albahaca</p>
                     <p class="producto__info--precio">$199<span>.99</span></p>
                     <button class="producto__info--button" type="submit">COMPRAR</button>
                 </div>
             </section>
-            <section id="producto" class="producto__aloevera">
+            <section id="producto" class="producto__conteiner producto__aloevera">
                 <img class="producto__img" src="imagenes/Aloe vera (1).jpg" alt="Planta de Aloe vera">
                 <div class="producto__info">
-                    <p class="producto__info--titulo">Planta de Albahaca</p>
+                    <p class="producto__info--titulo">Aloe vera</p>
                     <p class="producto__info--precio">$199<span>.99</span></p>
                     <button class="producto__info--button" type="submit">COMPRAR</button>
                 </div>
             </section>
-            <section class="producto__menta">
+            <section class="producto__conteiner producto__menta">
                 <img class="producto__img" src="imagenes/Menta.jpg" alt="Planta de Menta">
                 <div class="producto__info">
-                    <p class="producto__info--titulo">Planta de Albahaca</p>
+                    <p class="producto__info--titulo">Menta</p>
                     <p class="producto__info--precio">$199<span>.99</span></p>
                     <button class="producto__info--button" type="submit">COMPRAR</button>
                 </div>
             </section>
-            <section class="producto__palta">
+            <section class="producto__conteiner producto__palta">
                 <img class="producto__img" src="imagenes/Palta.jpg" alt="Planta de Palta">
                 <div class="producto__info">
-                    <p class="producto__info--titulo">Planta de Albahaca</p>
+                    <p class="producto__info--titulo">Palta</p>
                     <p class="producto__info--precio">$199<span>.99</span></p>
                     <button class="producto__info--button" type="submit">COMPRAR</button>
                 </div>
             </section>
-            <section class="producto__romero">
+            <section class="producto__conteiner producto__romero">
                 <img class="producto__img" src="imagenes/Romero.jpg" alt="Planta de Romero">
                 <div class="producto__info">
-                    <p class="producto__info--titulo">Planta de Albahaca</p>
+                    <p class="producto__info--titulo">Romero</p>
                     <p class="producto__info--precio">$199<span>.99</span></p>
                     <button class="producto__info--button" type="submit">COMPRAR</button>
                 </div>
             </section>
-            <section class="producto__ruda">
+            <section class="producto__conteiner producto__ruda">
                 <img class="producto__img" src="imagenes/Ruda.jpg" alt="Planta de Ruda">
                 <div class="producto__info">
-                    <p class="producto__info--titulo">Planta de Albahaca</p>
+                    <p class="producto__info--titulo">Ruda</p>
                     <p class="producto__info--precio">$199<span>.99</span></p>
                     <button class="producto__info--button" type="submit">COMPRAR</button>
                 </div>
             </section>
+
+            
     <!--------------------------------------FORMULARIO-->
     
     </main>
