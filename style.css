@@ -64,10 +64,9 @@ body{
 
 
 nav ul li a{
-    font-size: 700;
     text-decoration: none;
     color: #385b23;
-    font-weight: 250;
+    font-weight: 300;
 }
 
 .nav__item--tienda, .nav__item--contacto, .nav__item--nosotros{
@@ -157,7 +156,7 @@ label{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     margin: 20px 0px 20px 0px;
 } 
 
@@ -172,7 +171,7 @@ label{
 }
 
 .producto__conteiner:hover{
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .producto__info{
@@ -234,7 +233,8 @@ label{
             auto-fit,
             minmax(150px,1fr)
         );
-    gap: 32px;    
+    gap: 50px;    
+    padding: 90px;
 }
 
 .rese__cuadros{
