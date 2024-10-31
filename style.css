@@ -171,15 +171,15 @@ nav ul li a{
 
 
 .rese{
-
     background-color: #f9f9f7;
     display: grid;
     grid-template-columns: 
         repeat(
             auto-fit,
-            minmax(150px,1fr)
+            minmax(150px, 1fr)
         );
-}
+    gap: 32px;
+}  
 
 .rese-h2{
     display: flex;
